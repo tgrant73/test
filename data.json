@@ -1,4 +1,5 @@
 {
+  "TotalCount": 82,
   "DlqTablesByCountData": [
     {
       "Table": "bank_accounts",
