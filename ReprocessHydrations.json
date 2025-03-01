@@ -11,7 +11,7 @@
         "TotalGacInFailed": 149
       },
       {
-        "Table": "SA",
+        "Type": "SA",
         "WaitingToDelete": 0,
         "DeleteInProgress": 4,
         "WaitingToHydrate": 0,
