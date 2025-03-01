@@ -1,0 +1,118 @@
+{
+    "HydrationFlowData": [
+      {
+        "Type": "GAC",
+        "WaitingToDelete": 0,
+        "DeleteInProgress": 4,
+        "WaitingToHydrate": 0,
+        "HydrationInProgress": 7,
+        "FailedToHydrate": 144,
+        "SuccessfullyHydrated": 39869,
+        "TotalGacInFailed": 149
+      },
+      {
+        "Table": "SA",
+        "WaitingToDelete": 0,
+        "DeleteInProgress": 4,
+        "WaitingToHydrate": 0,
+        "HydrationInProgress": 0,
+        "FailedToHydrate": 28,
+        "SuccessfullyHydrated": 3537,
+        "TotalGacInFailed": 28
+      }
+    ],
+    "HydrationsFailedData": [
+      {
+        "Type": "GAC",
+        "Total": 149,
+        "Errors": [
+          {
+            "Quantity": 65,
+            "Reason": "TenantHydration Pipeline Failed. Pipeline: SBC-LedgerEntries"
+          },
+          {
+            "Quantity": 16,
+            "Reason": "[ErmServiceClientDeleteByTenantRepository] HandleRequestFailure(): StatusCode: UnprocessableEntity: ErrorCode: 422-28-1"
+          },
+          {
+            "Quantity": 16,
+            "Reason": "TenantHydration Pipeline Failed. Pipeline: SBC-LedgerAccounts"
+          },
+          {
+            "Quantity": 12,
+            "Reason": "TenantHydration Pipeline Failed. Pipeline: SBC-BankAccounts"
+          },
+          {
+            "Quantity": 7,
+            "Reason": "TenantHydration Pipeline Failed. Pipeline: SBC-TransactionCorrections"
+          },
+          {
+            "Quantity": 6,
+            "Reason": "TenantHydration Pipeline Failed. Pipeline: SBC-LedgerEntries SBC-TransactionArtefacts"
+          },
+          {
+            "Quantity": 6,
+            "Reason": "TenantHydration Pipeline Failed. Pipeline: SBC-DimensionTags"
+          },
+          {
+            "Quantity": 5,
+            "Reason": "TenantHydration Pipeline Failed. Pipeline: SBC-ErmEntities"
+          },
+          {
+            "Quantity": 5,
+            "Reason": "CommandTimeout. Name: Get all pipelines by tenantId | Timeout: 1"
+          },
+          {
+            "Quantity": 3,
+            "Reason": "Hydrations interupted - 07/02/2025"
+          },
+          {
+            "Quantity": 2,
+            "Reason": "TenantHydration Pipeline Failed. Pipeline: SBC-FinancialYears"
+          },
+          {
+            "Quantity": 1,
+            "Reason": "TenantHydration Pipeline Failed. Pipeline: SBC-TransactionArtefacts"
+          },
+          {
+            "Quantity": 1,
+            "Reason": "Demo business - 07/02/2025"
+          },
+          {
+            "Quantity": 1,
+            "Reason": "The Command Timeout expired before the operation completed."
+          },
+          {
+            "Quantity": 1,
+            "Reason": "Query execution was interrupted, maximum statement execution time exceeded"
+          },
+          {
+            "Quantity": 1,
+            "Reason": "Move noisy tenants to failed: 2025-02-28"
+          },
+          {
+            "Quantity": 1,
+            "Reason": "TenantHydration Pipeline Failed. Pipeline: SBC-LedgerEntries SBC-DimensionTags"
+          }
+        ]
+      },
+      {
+       "Type": "SA",
+        "Total": 28,
+        "Errors": [
+          {
+            "Quantity": 22,
+            "Reason": "TenantHydration Pipeline Failed. Pipeline: SBC-SA-AccountingEntries"
+          },
+          {
+            "Quantity": 5,
+            "Reason": "TenantHydration Pipeline Failed. Pipeline: SBC-SA-AccountingExercise"
+          },
+          {
+            "Quantity": 1,
+            "Reason": "NULL"
+          }
+        ]
+      }
+    ]
+  }
