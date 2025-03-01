@@ -27,70 +27,87 @@
         "Total": 149,
         "Errors": [
           {
+              "Type": "GAC",
             "Quantity": 65,
             "Reason": "Pipeline Failure 1"
           },
           {
+              "Type": "GAC",
             "Quantity": 16,
             "Reason": "Pipeline Failure 2"
           },
           {
+              "Type": "GAC",
             "Quantity": 16,
             "Reason": "Pipeline Failure 3"
           },
           {
+              "Type": "GAC",
             "Quantity": 12,
             "Reason": "Pipeline Failure 4"
           },
           {
+              "Type": "GAC",
             "Quantity": 7,
             "Reason": "Pipeline Failure 5"
           },
           {
+              "Type": "GAC",
             "Quantity": 6,
             "Reason": "Pipeline Failure 6"
           },
           {
+              "Type": "GAC",
             "Quantity": 6,
             "Reason": "Pipeline Failure 7"
           },
           {
+              "Type": "GAC",
             "Quantity": 5,
             "Reason": "Pipeline Failure 8"
           },
           {
+              "Type": "GAC",
             "Quantity": 5,
             "Reason": "Pipeline Failure 9"
           },
           {
+              "Type": "GAC",
             "Quantity": 3,
             "Reason": "Pipeline Failure 10"
           },
           {
+              "Type": "GAC",
             "Quantity": 2,
             "Reason": "Pipeline Failure 11"
           },
           {
+              "Type": "GAC",
             "Quantity": 1,
             "Reason": "Pipeline Failure 12"
           },
           {
+              "Type": "GAC",
             "Quantity": 1,
             "Reason": "Demo business - 07/02/2025"
           },
           {
+              "Type": "GAC",
             "Quantity": 1,
             "Reason": "The Command Timeout expired before the operation completed."
           },
           {
+              "Type": "GAC",
             "Quantity": 1,
             "Reason": "Query execution was interrupted, maximum statement execution time exceeded"
           },
           {
+              "Type": "GAC",
             "Quantity": 1,
             "Reason": "Pipeline Failure 13"
           },
           {
+              "Type": "GAC",
             "Quantity": 1,
             "Reason": "Pipeline Failure 14"
           }
@@ -101,14 +118,17 @@
         "Total": 28,
         "Errors": [
           {
+              "Type": "SA",
             "Quantity": 22,
             "Reason": "Pipeline Failure 1"
           },
           {
+              "Type": "SA",
             "Quantity": 5,
             "Reason": "Pipeline Failure 2"
           },
           {
+              "Type": "SA",
             "Quantity": 1,
             "Reason": "NULL"
           }
